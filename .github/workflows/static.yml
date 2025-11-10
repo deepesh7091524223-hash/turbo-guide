@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Feature Website</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f2f2f2; }
+    header { background: #008cff; padding: 20px; text-align: center; color: white; font-size: 28px; }
+    nav { background: #fff; padding: 10px; display: flex; justify-content: center; gap: 20px; border-bottom: 1px solid #ddd; }
+    nav a { text-decoration: none; color: #333; font-size: 18px; }
+    section { max-width: 900px; margin: 30px auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    footer { background: #008cff; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+    .slider { width: 100%; overflow: hidden; border-radius: 10px; }
+    .slider img { width: 100%; display: block; }
+    .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .gallery img { width: 100%; border-radius: 10px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 10px; text-align: left; }
+    form input, form textarea { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    form button { margin-top: 10px; padding: 10px 20px; border: none; background: #008cff; color: white; border-radius: 5px; cursor: pointer; }
+    audio, video { width: 100%; margin-top: 15px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>Full Feature Website</header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#slider">Slider</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#table">Table</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>This webpage now includes slider, gallery, table, audio video player and contact form.</p>
+  </section>
+
+  <section id="slider">
+    <h2>Image Slider</h2>
+    <div class="slider">
+      <img src="https://via.placeholder.com/900x300" />
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300" />
+      <img src="https://via.placeholder.com/300" />
+      <img src="https://via.placeholder.com/300" />
+    </div>
+  </section>
+
+  <section id="table">
+    <h2>Sample Table</h2>
+    <table>
+      <tr><th>Name</th><th>Age</th><th>City</th></tr>
+      <tr><td>Rahul</td><td>22</td><td>Delhi</td></tr>
+      <tr><td>Priya</td><td>25</td><td>Mumbai</td></tr>
+      <tr><td>Aman</td><td>27</td><td>Patna</td></tr>
+    </table>
+  </section>
+
+  <section id="media">
+    <h2>Audio and Video Player</h2>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg" />
+    </audio>
+
+    <video controls>
+      <source src="sample.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Form</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>© 2025 Full Feature Website. All Rights Reserved.</footer>
+</body>
+</html>
